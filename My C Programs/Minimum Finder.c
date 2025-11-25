@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+    int a,b,c,d;
+    printf("Enter the four numbers: ");
+    scanf("%d%d%d%d",&a,&b,&c,&d);
+    if (a<b && a<c && a<d) {
+        printf("%d is young",a);
+
+    }
+    else if (b<a && b<c && b<d) {
+        printf("%d is young",b);
+    }
+    else if (c<a && c<b && c<d) {
+        printf("%d is young",c);
+    }
+    else
+        printf("%d is young",d);
+    return 0;
+}
